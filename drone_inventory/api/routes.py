@@ -72,7 +72,7 @@ def update_drone(current_user_token,id):
     drone.name = request.json['name']
     drone.description = request.json['description']
     drone.price = request.json['price']
-    drone.camera_quality = request.json['camera_quality']
+    drone.cam_quality = request.json['cam_quality']
     drone.flight_time = request.json['flight_time']
     drone.max_speed = request.json['max_speed']
     drone.dimensions = request.json['dimensions']
